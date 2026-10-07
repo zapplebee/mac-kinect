@@ -1,0 +1,13 @@
+# Reproducible dependencies and binaries live under the build directory.
+/build*/
+/.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# Local room captures from hardware debugging are not project sources.
+/*.raw
+/*.bin
+/*-debug.png
+/phase-report.json
+# Previous dependency checkout; superseded by pinned FetchContent.
+/extern/
